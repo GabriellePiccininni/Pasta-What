@@ -1,0 +1,134 @@
+body {
+	background-image: url(../images/arches.png);
+	font-family: 'Bad Script', cursive; 
+	font-size: 18px;
+}
+
+
+.row { 
+	background: #197891;
+	height: 130px;
+	padding-top: 10px;
+	font-size: 55px;
+	font-family: 'Pacifico', cursive;	
+	color: white;
+	text-align: center;
+}
+
+ul {
+	width: 100%;
+	font-family: 'Bad Script', cursive; 
+	font-size: 18px;
+	background: #c9eff9;
+	border-bottom: solid 3px #f6b7a9;
+	height: 50px;
+	box-shadow: 0px 2px 20px #888888;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 15px 50px 15px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+#signUp{
+	background: #f6b7a9;
+	margin: 80px auto 10px auto;
+	padding: 30px;
+	width: 520px;
+	
+}
+
+#surveyBox {
+	background: #c9eff9;
+	margin: auto ;
+	padding: 50px;
+	height: auto;
+	width: 520px;
+	padding: 30px;
+
+}
+
+#name, #password, #email {
+	margin: 10px 0 0 0;
+	display: inline-block;
+	width: 100%;
+
+}
+
+
+footer {
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+label {
+	display: block;
+	margin-top: 30px;
+}
+
+
+select {
+	display: block;
+	text-align: left;
+
+}
+
+ul {
+    display: inline-block;
+    margin: 0 0 1em;
+}
+
+
+#red {
+	background: #e9503b;
+	border: solid white 3px;
+}
+
+#blue {
+	background: #503be9;
+	border: solid white 3px;
+}
+
+#green {
+	background: #7ddf92;
+	border: solid white 3px;
+}
+
+#blue {
+	background: #2481cd;
+	border: solid white 3px;
+}
+
+#yellow {
+	background: #f7d660;
+	border: solid white 3px;
+}
+
+.image {
+	display: block;
+	border: solid white 3px;
+	border-radius: 5px;
+    float: left;
+    list-style-type: none;
+    margin: 8px 8px 30px 8px;
+}
+ 
+
+.image:hover{
+	background: #FFF;
+    opacity: 0.3;
+}
+
+#submit {
+	padding: 8px;
+	margin: 20px auto; 
+
+
+	/* I can't get the submit buttons to center */
+}
