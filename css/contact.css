@@ -4,6 +4,7 @@ body {
 	font-size: 18px;
 }
 
+
 .header { 
 	background: #197891;
 	height: 130px;
@@ -14,27 +15,8 @@ body {
 	text-align: center;
 }
 
-#navBar{
-	background: #f6b7a9;
-	text-align: center;
-	margin-top: 130px;	 /* this makes the navbar span the width of the page*/
-
-}
-
-.row {
-	margin: 100px 20px 50px 20px;
-}
-
-.mainBoxes {
-	background: white;
-	margin: 10px 5px 10px 5px;
-	height: 400px;
-	box-shadow: 0 0 20px 0;
-	border-radius: 5px 5px 5px 5px;
-	padding: 10px;
-}
-
 ul {
+	width: 100%;
 	font-family: 'Bad Script', cursive; 
 	font-size: 18px;
 	background: #c9eff9;
@@ -46,11 +28,41 @@ ul {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 15px 30px 15px 30px;
+	padding: 15px 50px 15px 0;
 }
 
-footer {
-	color: black;
+h1 {
 	text-align: center;
+}
+
+label {
+	display: block;
+	margin-top: 30px;
+}
+
+
+select {
+	display: block;
+	text-align: left;
+
+}
+
+#contact{
+	background: #f6b7a9;
+	margin: 60px auto 10px auto;
+	padding: 25px;
+	width: 520px;
+	
+}
+
+
+#name, #password, #email, #message{
+	font-size: 16px;
+	margin: 10px 0 0 0;
+	display: inline-block;
+	width: 100%;
+}
+
+#message {
 	padding: 10px;
 }
