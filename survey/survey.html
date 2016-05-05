@@ -1,3 +1,9 @@
+<!--
+	The links to this page are broken because in your navigation, you are linking to "survey".
+	That assumes that the file name is "index.html", but the name of this file is "survey.html".
+	If you rename this file to "index.html", the links should work.
+-->
+
 <!DOCTYPE html>
 
 <head>
@@ -10,6 +16,17 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
 		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+
+		<!--
+			It is a best practice to have all of your CSS files in the same directory - in a 
+			css/ directory in the root of your site (repository).  This will work as is, but if you
+			do move the file to the other css/ directory in your site root, you can change the
+			href attribute here to:
+
+			<link rel="stylesheet" type="text/css" href="../css/survey.css"/>	
+
+			(note the dots)
+		-->
 		<link rel="stylesheet" type="text/css" href="css/survey.css"/>
 </head>
 
@@ -36,6 +53,10 @@
 	<form id="signUp">
 		<h1> Sign Up!</h1>
 
+		<!--
+			Instead of these <div> tags, you can also use the <fieldset> tag.  This tag
+			is meant to group together parts of your form.  
+		-->
 		<div class="form-group">
 			<label for="name"> Name: </label>
 			<input type="text" name="Name" class="form-control" id="name" placeholder="Full Name">
@@ -94,14 +115,32 @@
 	
 	</form>
 
+<!--
+	I think this is an extra <div> tag?
+-->
 <div >
 
 
 	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+
+	<!--
+		It is a best practice to have all of your JS files in the same directory - in a 
+		js/ directory in the root of your site (repository).  This will work as is, but if you
+		do move the file to the other js/ directory in your site root, you can change the
+		src attribute here to:
+
+		<script src="../js/survey.js"></script>
+
+		(note the dots)
+	-->
+
 	<script src="js/survey.js"></script>
 
 </body>
 
+<!--
+	This <footer> tag should be inside of the <body> tag above.
+-->
 <footer>
 
 </footer>
