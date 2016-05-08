@@ -1,3 +1,4 @@
+
 body {
 	background-image: url(../images/arches.png);
 	font-family: 'Bad Script', cursive; 
@@ -46,7 +47,8 @@ ul {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 15px 30px 15px 30px;
+	padding: 15px 30px;
+
 }
 
 footer {

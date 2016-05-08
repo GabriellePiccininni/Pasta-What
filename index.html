@@ -11,10 +11,11 @@
 	-->
 
 	<!-- Latest compiled and minified CSS -->
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -27,6 +28,7 @@
 			
 			<div id="navBar">
 				<ul id="navLinks">
+<<<<<<< HEAD
 					<!--
 						I know these links are likely still a work in progress, but the
 						home link is broken because you have no directory called "home".
@@ -38,14 +40,18 @@
 						site URL (GabriellePiccininni.github.io)
 					-->
 					<li><a href="home"> Home </a></li>
+=======
+					<li><a href="/"> Home </a></li>
+>>>>>>> GabriellePiccininni/master
 					<li><a href="survey"> Pasta Index </a></li>
 					<li><a href="survey"> Recipe Index </a></li>
-					<li><a href="survey"> Survey </a></li>
+					<li><a href="survey/"> Survey </a></li>
 				</ul>
 			</div>
 		</header>
 
 		<main class="row">
+<<<<<<< HEAD
 				<!--
 					I love the fact that you are using Bootstrap columns here!
 					
@@ -60,18 +66,21 @@
 						more semantically correct to use one of the heading tags
 						here - I would use <h1> or <h2>
 					-->
+=======
+				<section class="col-xs-12 col-md-4">
+>>>>>>> GabriellePiccininni/master
 					<div class="mainBoxes">
 						Straights
 					</div>
 				</section>
 
-				<section class="col-xs-4 col-md-4">
+				<section class="col-xs-12 col-md-4">
 					<div class="mainBoxes">
 						Tubulars
 					</div>
 				</section>
 				
-				<section class="col-xs-4 col-md-4">
+				<section class="col-xs-12 col-md-4">
 					<div class="mainBoxes">
 						What the hells
 					</div>
@@ -81,6 +90,7 @@
 
 
 	<footer>
+<<<<<<< HEAD
 		<!--
 			Instead of using Font Awesome for the copyright symbol, you can also use
 			an ascii code.  We did not go over that in class, but if you replace
@@ -90,7 +100,15 @@
 			Totally optional - just something to play with.
 		-->
 		<p>Gabrielle Piccininni <i class="fa fa-copyright" aria-hidden="true"></i> 2016</p>
+=======
+		<p>Gabrielle Piccininni &copy; 2016</p>
+>>>>>>> GabriellePiccininni/master
 	</footer>
+
+	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+		<!-- important for javascript to come BEFORE bootstrap bc botstrap requires jQuery -->
 </body>
 
 </html>
