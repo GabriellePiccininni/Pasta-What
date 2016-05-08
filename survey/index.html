@@ -1,3 +1,9 @@
+<!--
+	The links to this page are broken because in your navigation, you are linking to "survey".
+	That assumes that the file name is "index.html", but the name of this file is "survey.html".
+	If you rename this file to "index.html", the links should work.
+-->
+
 <!DOCTYPE html>
 
 <head>
@@ -36,6 +42,10 @@
 	<form id="signUp">
 		<h1> Sign Up!</h1>
 
+		<!--
+			Instead of these <div> tags, you can also use the <fieldset> tag.  This tag
+			is meant to group together parts of your form.  
+		-->
 		<div class="form-group">
 			<label for="name"> Name: </label>
 			<input type="text" name="Name" class="form-control" id="name" placeholder="Full Name">
@@ -96,8 +106,6 @@
 	</form>
 
 
-	
-
 <footer>
 
 </footer>
@@ -107,10 +115,6 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="../js/survey.js"></script>
 </body>
-
-
-
-
 
 
 </html>
