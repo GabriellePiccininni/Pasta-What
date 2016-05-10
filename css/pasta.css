@@ -1,9 +1,9 @@
-
 body {
 	background-image: url(../images/arches.png);
 	font-family: 'Bad Script', cursive; 
 	font-size: 18px;
 }
+
 
 .header { 
 	background: #197891;
@@ -15,27 +15,8 @@ body {
 	text-align: center;
 }
 
-#navBar{
-	background: #f6b7a9;
-	text-align: center;
-	margin-top: 130px;	 /* this makes the navbar span the width of the page*/
-
-}
-
-.row {
-	margin: 100px 20px 50px 20px;
-}
-
-.mainBoxes {
-	background: white;
-	margin: 10px 5px 10px 5px;
-	height: 400px;
-	box-shadow: 0 0 20px 0;
-	border-radius: 5px 5px 5px 5px;
-	padding: 10px;
-}
-
 ul {
+	width: 100%;
 	font-family: 'Bad Script', cursive; 
 	font-size: 18px;
 	background: #c9eff9;
@@ -47,12 +28,51 @@ ul {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 15px 30px 15px 30px;
-
+	padding: 15px 50px 15px 0;
 }
 
-footer {
-	color: black;
+h1 {
 	text-align: center;
+}
+
+.pastaCard{
+	background-color: #f6b7a9;
+	margin: 50px auto 10px auto;
+	height: 500px;
+	width: 768px;
+}
+
+.pastaCopy{
+	margin-left: 230px;
 	padding: 10px;
 }
+p{
+	padding-top: 1.25rem;
+}
+.firstWord{
+  float: left;
+  font-size: 4rem;
+  line-height: 4.063rem;
+  padding: .25rem 1rem 0 0;
+}
+.pastaTitle{
+	padding: 15px 0 0 15px;
+	font-size: 6rem;
+	font-family: Pacifico;
+	
+}
+
+img{
+	float: left;
+	width: 200px;
+	border-radius: 50%;
+	margin: 10% 2%;
+}
+
+
+hr {
+	margin: 0px;
+}
+
+
+

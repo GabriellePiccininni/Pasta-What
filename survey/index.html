@@ -8,9 +8,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
-		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
-		
-		<link rel="stylesheet" type="text/css" href="..css/survey.css">
+		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>	
+		<link rel="stylesheet" type="text/css" href="../css/survey.css">
 </head>
 
 <body>
@@ -22,41 +21,16 @@
 			</div>
 			<div id="navBar">
 				<ul id="navLinks">
-					<li><a href="index.html"> Home </a></li>
-					<li><a href="survey.html"> Survey </a></li>
+					<li><a href="/"> Home </a></li>
+					<li><a href="#"> Pasta Index </a></li>
+					<li><a href="#"> Recipe Index </a></li>
+					<li><a href="#"> Contact Us </a></li>
 				</ul>
 			</div>
 		</header>
 	</div>
 		
 
-
-<!-- For the purposes of this assignment, i kept both forms on one page. I will separate the sgn up page from the survey page in my final project -->
-
-	<form id="signUp">
-		<h1> Sign Up!</h1>
-
-		<div class="form-group">
-			<label for="name"> Name: </label>
-			<input type="text" name="Name" class="form-control" id="name" placeholder="Full Name">
-			<div class='nameErrorMessage'>
-				<p>Please enter your name</p>
-			</div>
-		</div>
-
-
-		<div class="form-group">
-			<label for="email">Email:</label>
-			<input type="email" class="form-control" id="email" placeholder="Email">
-		</div>
-		
-		<div class="form-group">
-			<label for="password">Password</label>
-			<input type="password" class="form-control" id="password" placeholder="Password">
-		</div>
-		
-		<button type="submit" class="btn btn-default">Submit</button>
-	</form>
 
 	<form id="surveyBox">
 		<h1> What Kind of Pasta are You?</h1>
@@ -77,19 +51,34 @@
 			<input type="radio" name="radioQuestion" value="optionThree"> Uhhh…true italians call it "gravy"? <br>
 			<input type="radio" name="radioQuestion" value="optionThree"> Whichever matches my wine. <br>
 
-		<label for="QuestionFour">4. Pick your favorite color</label>
+		
+		<label for="QuestionFour">4. When you have extra sauce on your plate, you...</label>
+			<input type="radio" name="radioQuestion" value="optionOne"> rinse it off in the sink?<br>
+			<input type="radio" name="radioQuestion" value="optionTwo"> get some more pasta to throw on top of it?<br>
+			<input type="radio" name="radioQuestion" value="optionThree"> reach for some more bread to clean that up?<br>
+			<input type="radio" name="radioQuestion" value="optionFour"> just use your dang fork and scoop it into your mouth?
+
+
+		<label for="QuestionFive">5. Pick your favorite color</label>
 			<input type="image" src="http://placehold.it/90x90/e9503b/e9503b" alt="Submit" class="image">
 			<input type="image" src="http://placehold.it/90x90/2481cd/2481cd" alt="Submit" class="image">
 			<input type="image" src="http://placehold.it/90x90/7ddf92/7ddf92" alt="Submit" class="image">
-			<input type="image" src="http://placehold.it/90x90/f7d660/f7d660" alt="Submit" class="image">
+			<input type="image" src="http://placehold.it/90x90/f7d660/f7d660" alt="Submit" class="image"><br>
+		
+		<label for="QuestionSix">6. Which movie pasta scene are you?</label>
+			<input type="radio" name="radioQuestion" value="optionOne"> <a href="https://www.youtube.com/watch?v=ppjyB2MpxBU">The Godfather</a>, gun-behind-the-toilet restaurant scene<br>
+			<input type="radio" name="radioQuestion" value="optionTwo"><a href="https://www.youtube.com/watch?v=RzW4PH68KG4"> Lady and the Tramp</a> sharing the same noodle<br>
+			<input type="radio" name="radioQuestion" value="optionThree"> <a href="https://www.youtube.com/watch?v=yztx8qfoNu0">Goodfellas</a> making prison pasta<br>
+			<input type="radio" name="radioQuestion" value="optionFour"> <a href="http://www.desmoinesfoodster.com/2014/12/02/buddy-the-elf-breakfast-recipe/">Elf's</a> breakfast spaghetti and M&Ms<br>
 
-		<label for="QuestionFive">5. Pick your favorite Bill Murray</label>
+		<label for="QuestionSeven">7. Pick your favorite Bill Murray</label>
 			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
 			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
 			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
-			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
+			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image"><br>
 		
-		
+
+
 		 <button type="submit" class="btn btn-default">Submit</button>
 
 	

@@ -28,25 +28,16 @@ ul {
 li {
 	list-style-type: none;
 	display: inline-block;
-	padding: 15px 30px;
+	padding: 15px 50px 15px 0;
 }
 
 h1 {
 	text-align: center;
 }
 
-#signUp{
-	background: #f6b7a9;
-	margin: 80px auto 10px auto;
-	padding: 30px;
-	width: 520px;
-	
-}
-
 #surveyBox {
 	background: #c9eff9;
-	margin: auto ;
-	padding: 50px;
+	margin: 80px auto 10px auto;
 	height: auto;
 	width: 520px;
 	padding: 30px;
@@ -57,7 +48,6 @@ h1 {
 	margin: 10px 0 0 0;
 	display: inline-block;
 	width: 100%;
-
 }
 
 
@@ -69,7 +59,7 @@ footer {
 
 label {
 	display: block;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 
@@ -125,6 +115,10 @@ ul {
     opacity: 0.3;
 }
 
+#submit{
+	padding: 8px;
+	margin: 20px auto;
+}
 .btn-default {
 	display: block;
 	margin: 0 auto;
