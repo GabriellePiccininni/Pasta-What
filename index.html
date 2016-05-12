@@ -3,60 +3,86 @@
 <head>
 	<!-- Latest compiled and minified CSS -->
 		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
-		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<div>
-		<header class="header">
-			<div class="col-xs-12 header">
-			Pasta, What?
-			</div>
+	<div class="container-fluid">
+		<row>
+			<div class ="header">Pasta, What?</div>
+		</row>
+
+		<row>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <row class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+			        <li><a href="#">Survey</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pasta Index <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Straights</a></li>
+			            <li><a href="#">Tubes</a></li>
+			            <li><a href="#">What the hecks?</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </row><!-- /.container-fluid -->
+			</nav>
+		</row>
+		
+		<div>
+			<section class="col-xs-12 col-md-3 col-lg-4">
+				<div class="mainBox">
+					<h2>Straights</h2>
+					<img src="images/spaghetti.jpg">
+				</div>
+			</section>
+
+			<section class="col-xs-12 col-md-3 col-lg-4">
+				<div class="mainBox">
+					<h2>Tubes</h2>
+					<img src="images/spaghetti.jpg">
+				</div>
+			</section>
 			
-			<div id="navBar">
-				<ul id="navLinks">
-					<li><a href="/"> Home </a></li>
-					<li><a href="Pasta Index/"> Pasta Index </a></li>
-					<li><a href="survey"> Recipe Index </a></li>
-					<li><a href="survey/"> Survey </a></li>
-				</ul>
-			</div>
-		</header>
-
-		<main class="row">
-				<section class="col-xs-12 col-md-4">
-					<div class="mainBoxes">
-						Straights
-					</div>
-				</section>
-
-				<section class="col-xs-12 col-md-4">
-					<div class="mainBoxes">
-						Tubes
-					</div>
-				</section>
-				
-				<section class="col-xs-12 col-md-4">
-					<div class="mainBoxes">
-						What the hecks
-					</div>
-				</section>
-		</main>
-	</div>
+			<section class="col-xs-12 col-md-3 col-lg-4">
+				<div class="mainBox">
+					<h2>What the hecks</h2>
+					<img src="images/spaghetti.jpg">
+				</div>
+			</section>
+		</div>
 
 
-	<footer>
-		<p>Gabrielle Piccininni &copy; 2016</p>
-	</footer>
+		<footer>
+			<p>Gabrielle Piccininni &copy; 2016</p>
+		</footer>
 
-	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="js/script.js"></script>
-		<!-- important for javascript to come BEFORE bootstrap bc botstrap requires jQuery -->
+		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src="js/script.js"></script>
+			<!-- important for javascript to come BEFORE bootstrap bc botstrap requires jQuery -->
+
+	</div> <!-- /.container -->
+
 </body>
 
 </html>
