@@ -5,30 +5,54 @@ body {
 }
 
 
-.header { 
+
+.header{
 	background: #197891;
-	height: 130px;
-	padding-top: 10px;
+	height: auto;
+	padding: 1rem 0;
 	font-size: 55px;
 	font-family: 'Pacifico', cursive;	
 	color: white;
 	text-align: center;
 }
 
-ul {
-	width: 100%;
-	font-family: 'Bad Script', cursive; 
-	font-size: 18px;
-	background: #c9eff9;
+.navbar.navbar-default{
+	background:#c9eff9;
 	border-bottom: solid 3px #f6b7a9;
-	height: 50px;
-	box-shadow: 0px 2px 20px #888888;
+	box-shadow: 0 0 40px rgba(0,0,0,0.4);
+	text-align: center;
 }
 
-li {
-	list-style-type: none;
+.nav.navbar-nav {
+	font-family: 'Bad Script', cursive; 
+	font-size: 18px;
 	display: inline-block;
-	padding: 15px 50px 15px 0;
+  	float: none;
+ 	vertical-align: top;
+}
+
+/*.nav.navbar-nav> li.active > a{
+	background-color: white;
+}*/
+.navbar-toggle{
+	background-color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #c9eff9;
+}
+/* Hamburger*/
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #197891;
+  border: #197891; 
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+	background-color: white;
+}
+
+.navbar-header{
+	background-color: #c9eff9;
 }
 
 h1 {
@@ -74,5 +98,11 @@ hr {
 	margin: 0px;
 }
 
-
+.arrow{
+	text-align: center;
+	padding: 3px 0 100px 0;
+}
+.arrow p{
+	font-size: 24px;
+}
 
