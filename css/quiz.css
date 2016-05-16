@@ -80,6 +80,8 @@ span h1{
 }
 
 h1 {
+	font-family: Pacifico;
+	font-size: 35px;
 	text-align: center;
 }
 
@@ -108,13 +110,18 @@ footer {
 label {
 	display: block;
 	margin-top: 50px;
+	font-style: italic;
+	font-weight: 900;
 }
 
 
 select {
 	display: block;
 	text-align: left;
+}
 
+.answerOptions{
+	font-family: Overlock;
 }
 
 ul {

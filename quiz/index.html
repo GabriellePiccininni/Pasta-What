@@ -8,8 +8,10 @@
 
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap-lightbox.css"/>
 		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
-		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script|Overlock: 400,900italic,700,900' rel='stylesheet' type='text/css'>	
 		<link rel="stylesheet" type="text/css" href="../css/quiz.css"/>
 </head>
 
@@ -54,49 +56,51 @@
 
 	<form id="surveyBox">
 		<h1> What Kind of Pasta are You?</h1>
-		<label for="QuestionOne">1. Which of the following best describes your pasta relationship?</label>
-			<input type="radio" name="radioQuestion" value="optionOne"> Bordering on obession, but in a healthy way. <br>
-			<input type="radio" name="radioQuestion" value="optionTwo"> Love / Hate <br>
-			<input type="radio" name="radioQuestion" value="optionThree" id='noPasta'> I don't eat pasta <br>
+		<div class="answerOptions">
+			<label for="QuestionOne">1. Which of the following best describes your pasta relationship?</label>
+				<input type="radio" name="radioQuestion" value="optionOne"> Bordering on obession, but in a healthy way. <br>
+				<input type="radio" name="radioQuestion" value="optionTwo"> Love / Hate <br>
+				<input type="radio" name="radioQuestion" value="optionThree" id='noPasta' > I don't eat pasta <br>
 
 
-		<label for="QuestionTwo">2. What pasta would your favorite Game of Thrones character be?</label>	
-			<input type="radio" name="radioQuestion" value="optionTwo"> Farfalle (bow ties).They're fancy <br>
-			<input type="radio" name="radioQuestion" value="optionThree"> Cavatappi (corksrews) They're crazy! <br>
-			<input type="radio" name="radioQuestion" value="optionThree"> Orecchiette (little ears). They spy like a boss!<br>
+			<label for="QuestionTwo">2. What pasta would your favorite Game of Thrones character be?</label>		
+				<input type="radio" name="radioQuestion" value="optionTwo"> Farfalle (bow ties).They're fancy <br>
+				<input type="radio" name="radioQuestion" value="optionThree"> Cavatappi (corksrews) They're crazy! <br>
+				<input type="radio" name="radioQuestion" value="optionThree"> Orecchiette (little ears). They spy like a boss!<br>
+
+			<label for="QuestionThree">3. What kind of sauce do you put on your pasta?</label>	
+				<input type="radio" name="radioQuestion" value="optionOne"> Ragu <br>
+				<input type="radio" name="radioQuestion" value="optionTwo"> Homemade! <br>
+				<input type="radio" name="radioQuestion" value="optionThree"> Uhhh…true italians call it "gravy"? <br>
+				<input type="radio" name="radioQuestion" value="optionThree"> Whichever matches my wine. <br>
+
+			
+			<label for="QuestionFour">4. When you have extra sauce on your plate, you...</label>
+				<input type="radio" name="radioQuestion" value="optionOne"> rinse it off in the sink?<br>
+				<input type="radio" name="radioQuestion" value="optionTwo"> get some more pasta to throw on top of it?<br>
+				<input type="radio" name="radioQuestion" value="optionThree"> reach for some more bread to clean that up?<br>
+				<input type="radio" name="radioQuestion" value="optionFour"> just use your dang fork and scoop it into your mouth?
+
+
+			<label for="QuestionFive">5. Pick your favorite color</label>
+				<input type="image" src="http://placehold.it/90x90/e9503b/e9503b" alt="Submit" class="image">
+				<input type="image" src="http://placehold.it/90x90/2481cd/2481cd" alt="Submit" class="image">
+				<input type="image" src="http://placehold.it/90x90/7ddf92/7ddf92" alt="Submit" class="image">
+				<input type="image" src="http://placehold.it/90x90/f7d660/f7d660" alt="Submit" class="image"><br>
+			
+			<label for="QuestionSix">6. Which movie pasta scene are you?</label>
+				<input type="radio" name="radioQuestion" value="optionOne"> <a href="https://www.youtube.com/watch?v=ppjyB2MpxBU">The Godfather</a>, gun-behind-the-toilet restaurant scene<br>
+				<input type="radio" name="radioQuestion" value="optionTwo"><a href="https://www.youtube.com/watch?v=RzW4PH68KG4"> Lady and the Tramp</a> sharing the same noodle<br>
+				<input type="radio" name="radioQuestion" value="optionThree"> <a href="https://www.youtube.com/watch?v=yztx8qfoNu0">Goodfellas</a> making prison pasta<br>
+				<input type="radio" name="radioQuestion" value="optionFour"> <a href="http://www.desmoinesfoodster.com/2014/12/02/buddy-the-elf-breakfast-recipe/">Elf's</a> breakfast spaghetti and M&Ms<br>
+
+			<label for="QuestionSeven">7. Pick your favorite Bill Murray</label>
+				<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
+				<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
+				<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
+				<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image"><br>
 		
-		<label for="QuestionThree">3. What kind of sauce do you put on your pasta?</label>	
-			<input type="radio" name="radioQuestion" value="optionOne"> Ragu <br>
-			<input type="radio" name="radioQuestion" value="optionTwo"> Homemade! <br>
-			<input type="radio" name="radioQuestion" value="optionThree"> Uhhh…true italians call it "gravy"? <br>
-			<input type="radio" name="radioQuestion" value="optionThree"> Whichever matches my wine. <br>
-
-		
-		<label for="QuestionFour">4. When you have extra sauce on your plate, you...</label>
-			<input type="radio" name="radioQuestion" value="optionOne"> rinse it off in the sink?<br>
-			<input type="radio" name="radioQuestion" value="optionTwo"> get some more pasta to throw on top of it?<br>
-			<input type="radio" name="radioQuestion" value="optionThree"> reach for some more bread to clean that up?<br>
-			<input type="radio" name="radioQuestion" value="optionFour"> just use your dang fork and scoop it into your mouth?
-
-
-		<label for="QuestionFive">5. Pick your favorite color</label>
-			<input type="image" src="http://placehold.it/90x90/e9503b/e9503b" alt="Submit" class="image">
-			<input type="image" src="http://placehold.it/90x90/2481cd/2481cd" alt="Submit" class="image">
-			<input type="image" src="http://placehold.it/90x90/7ddf92/7ddf92" alt="Submit" class="image">
-			<input type="image" src="http://placehold.it/90x90/f7d660/f7d660" alt="Submit" class="image"><br>
-		
-		<label for="QuestionSix">6. Which movie pasta scene are you?</label>
-			<input type="radio" name="radioQuestion" value="optionOne"> <a href="https://www.youtube.com/watch?v=ppjyB2MpxBU">The Godfather</a>, gun-behind-the-toilet restaurant scene<br>
-			<input type="radio" name="radioQuestion" value="optionTwo"><a href="https://www.youtube.com/watch?v=RzW4PH68KG4"> Lady and the Tramp</a> sharing the same noodle<br>
-			<input type="radio" name="radioQuestion" value="optionThree"> <a href="https://www.youtube.com/watch?v=yztx8qfoNu0">Goodfellas</a> making prison pasta<br>
-			<input type="radio" name="radioQuestion" value="optionFour"> <a href="http://www.desmoinesfoodster.com/2014/12/02/buddy-the-elf-breakfast-recipe/">Elf's</a> breakfast spaghetti and M&Ms<br>
-
-		<label for="QuestionSeven">7. Pick your favorite Bill Murray</label>
-			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
-			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
-			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image">
-			<input type="image" src="http://fillmurray.com/90/90" alt="Submit" class="image"><br>
-		
+		</div>	
 
 
 		 <button type="submit" class="btn btn-default">Submit</button>
@@ -114,6 +118,7 @@
 
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script src"..js/bootstrap-lightbox.js"></script>
 		<script src="../js/quiz.js"></script>
 </body>
 
