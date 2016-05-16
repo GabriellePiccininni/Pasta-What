@@ -4,12 +4,19 @@ body {
 	font-size: 18px;
 }
 
+#headerLogo{
+	display: none;
+}
 
 .header{
-	float: clear;
+
 	background-color: #197891;
 	height: 90px;
 	padding: 8px;
+	font-family: Pacifico;
+	font-size: 50px;
+	color: white;
+	text-align: center;
 }
 
 span h1{
@@ -28,17 +35,7 @@ span h1{
 }
 
 
-#headerLogo{
-	background: #197891;
-	display: inline-block;
-	font-size: 20px;
-	font-family: 'Pacifico', cursive;	
-	color: white;
-	padding: 16.5px 8px;
-	border-radius: 100%;
-	border: solid white 2px;
-	transform: rotate(-20deg);
-}
+
 
 .navbar.navbar-default{
 	background:#c9eff9;
@@ -85,19 +82,13 @@ h1 {
 	text-align: center;
 }
 
-#surveyBox {
+#quizBox {
 	background: #c9eff9;
-	margin: 80px auto 10px auto;
+	margin: 40px auto 10px auto;
 	height: auto;
-	width: 520px;
+	width: 600px;
 	padding: 30px;
 
-}
-
-#name, #password, #email {
-	margin: 10px 0 0 0;
-	display: inline-block;
-	width: 100%;
 }
 
 
@@ -119,8 +110,11 @@ select {
 	display: block;
 	text-align: left;
 }
+input[type="radio"].colors {
+    display: none;
+}
 
-.answerOptions{
+#quizQuestions{
 	font-family: Overlock;
 }
 
@@ -176,8 +170,53 @@ ul {
 }
 .btn-default {
 	display: block;
-	margin: 0 auto;
-	padding: 1rem;
+	margin: 2rem auto 0;
+	padding: 1.5rem;
 	font-size: 2rem;
 
 }
+
+/* RESPONSIVE MEDAIA QUERIES*/
+
+/******* TABLET + *******/
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+	body{
+
+	}
+
+/******* SMALLER TABLETS **********/
+@media screen and (max-width: 767px) {
+
+	#quizBox {
+			color: red;
+		}
+
+}
+
+/******* PHONES *********/
+@media only screen (max-width: 320px) {
+
+	#headerLogo{
+		background: #197891;
+		display: inline-block;
+		font-size: 20px;
+		font-family: 'Pacifico', cursive;	
+		color: white;
+		padding: 16.5px 8px;
+		border-radius: 100%;
+		border: solid white 2px;
+		transform: rotate(-20deg);
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
