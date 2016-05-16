@@ -107,9 +107,7 @@ img:hover {
     border: solid #197891;
 }
 
-a:hover{
-	text-decoration: none;
-}
+
 .arrowDown{
 	padding: 100px 0 0 0;
 	font-size: 30px;
