@@ -28,14 +28,6 @@ span h1{
 	text-align: center;
 }
 
-#contact h1{
-	font-family: 'Pacifico', cursive;
-	font-size: 55px;
-	text-align: center;
-}
-
-
-
 
 .navbar.navbar-default{
 	background:#c9eff9;
@@ -103,6 +95,7 @@ label {
 	margin-top: 50px;
 	font-style: italic;
 	font-weight: 900;
+	clear: both;
 }
 
 
@@ -113,6 +106,7 @@ select {
 input[type="radio"].colors {
     display: none;
 }
+
 
 #quizQuestions{
 	font-family: Overlock;
@@ -126,27 +120,22 @@ ul {
 
 #red {
 	background: #e9503b;
-	border: solid white 3px;
 }
 
 #blue {
 	background: #503be9;
-	border: solid white 3px;
 }
 
 #green {
 	background: #7ddf92;
-	border: solid white 3px;
 }
 
 #blue {
 	background: #2481cd;
-	border: solid white 3px;
 }
 
 #yellow {
 	background: #f7d660;
-	border: solid white 3px;
 }
 
 .image {
@@ -154,7 +143,7 @@ ul {
 	border: solid white 3px;
 	border-radius: 5px;
     float: left;
-    list-style-type: none;
+  	list-style-type: none;
     margin: 8px 8px 30px 8px;
 }
  
@@ -183,23 +172,46 @@ ul {
 	body{
 
 	}
+}
 
 /******* SMALLER TABLETS **********/
 @media screen and (max-width: 767px) {
 
 	#quizBox {
-			color: red;
+		width: 80%;
 		}
-
+	h1{
+		font-size: 30px;
+	}
+	img, .image{
+		width: 20%;
+		margin: 5px;
+	}
 }
 
 /******* PHONES *********/
-@media only screen (max-width: 320px) {
+@media only screen and (max-width: 400px) {
+	#quizBox{
+		padding: 5px;
+		width: 90%;
+	}
+	h1{
+		font-size: 20px;
+	}
+	label{
+		margin-top: 20px; 
+	}
 
+	.header p{
+		display: none;
+	}
+	.header{
+		height: auto;
+	}
 	#headerLogo{
 		background: #197891;
 		display: inline-block;
-		font-size: 20px;
+		font-size: 15px;
 		font-family: 'Pacifico', cursive;	
 		color: white;
 		padding: 16.5px 8px;
@@ -209,8 +221,7 @@ ul {
 	}
 
 
-
-
+}
 
 
 
