@@ -18,12 +18,10 @@ $(document).ready(function(){
 		var password = $('#password').val();
 
 			if (name == '') {   //if the first name field is empty
-				alert('You must enter your full name');	
+				$("#nameErrorMessage").slideDown();	
 			} if (email == '') {
-				alert('You must enter your email address');
-			} if (password == '') {
-				alert('You must enter a password');
-			}  
+				$("#emailErrorMessage").slideDown();	
+			} 
 
 	}
 	//GOAL: redirect to URL when user checks "I don't like pasta option"

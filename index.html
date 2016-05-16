@@ -13,12 +13,7 @@
 <body>
 	<div class="container-fluid">
 		<row>
-			<div class ="header">Pasta, What?</div>
-		</row>
-
-		<row>
 			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -32,55 +27,64 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <row class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
-			        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-			        <li><a href="#">Survey</a></li>
+			        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+			        <li><a href="survey/index.html">Survey</a></li>
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pasta Index <span class="caret"></span></a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Straights</a></li>
-			            <li><a href="#">Tubes</a></li>
-			            <li><a href="#">What the hecks?</a></li>
+			            <li><a href="#pastas/straights.html">Straights</a></li>
+			            <li><a href="pastas/tubes.html">Tubes</a></li>
+			            <li><a href="pastas/whatthehecks">What the hecks?</a></li>
 			          </ul>
 			        </li>
+			        <li><a href="/contact.html">Contact</a></li>
 			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </row><!-- /.container-fluid -->
+		 		</row><!-- /.navbar-collapse -->
 			</nav>
 		</row>
-		
-		
-		<div class="intro">
-			<h1> </h1>
+	
+	
+		<div id="headerSection">
+			<row>
+				<div class ="header">Pasta, What?</div>
+			</row>	
+			<div class="intro">
+				<p>Never settle for simple spaghetti again!</p>
+				<div class="arrowDown">
+					<a href="#pastaSection"><p> Become a Pasta Pro</p><span class="glyphicon glyphicon-arrow-down"></span></a>
+				</div>
+			</div>
 		</div>
 
-
-		<div>
+		<div id="pastaSection">
+			<h1>Pick Your Pasta:</h1>
 			<section class="col-xs-12 col-md-3 col-lg-4">
 				<div class="mainBox">
-					<h2>Straights</h2>
-					<img src="images/spaghetti.jpg">
+					<a href="pastas/straights.html"><img src="images/spaghetti.jpg">
+					<h2>Straights</h2></a>
 				</div>
 			</section>
 
 			<section class="col-xs-12 col-md-3 col-lg-4">
 				<div class="mainBox">
-					<h2>Tubes</h2>
-					<img src="images/spaghetti.jpg">
+					<a href="pastas/tubes.html"><img src="images/spaghetti.jpg">
+					<h2>Tubes</h2></a>
 				</div>
 			</section>
 			
 			<section class="col-xs-12 col-md-3 col-lg-4">
 				<div class="mainBox">
-					<h2>What the hecks</h2>
-					<img src="images/spaghetti.jpg">
-				</div>
+					<a href="pastas/whatthehecks.html"><img src="images/spaghetti.jpg">
+					<h2>What the hecks</h2></a>
 			</section>
 		</div>
 
 
-		<footer>
-			<p>Gabrielle Piccininni &copy; 2016</p>
-		</footer>
+		<div class="footer out">
+			<div class="in">
+				<p class="copy">&copy; 2016 Pasta, What?</p>
+			</div>
+		</di&copy;>
 
 		<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>

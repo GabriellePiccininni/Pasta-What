@@ -15,52 +15,81 @@
 
 <body>
 
-	<div>
-		<header class="header">
-			<div>
-			Pasta, What?
+<head>
+	<!-- Latest compiled and minified CSS -->
+		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
+	<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="header">
+			<div id="headerLogo">PW?</div>
+		
+		</div>	
+		<row>
+			<nav class="navbar navbar-default">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <row class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+			        <li><a href="survey/index.html">Survey</a></li>
+			        <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pasta Index <span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="pastas/straights.html">Straights</a></li>
+			            <li><a href="pastas/tubes.html">Tubes</a></li>
+			            <li><a href="pastas/whatthehecks.html">What the hecks?</a></li>
+			          </ul>
+			        </li>
+			      </ul>
+		 		</row><!-- /.navbar-collapse -->
+			</nav>
+		</row>
+
+		<form id="contact">
+			<h1> Contact Us!</h1>
+
+			<div class="form-group">
+				<label for="name"> Name: </label>
+					<input type="text" name="Name" class="form-control" id="name" placeholder="Full Name">
+						<div id='nameErrorMessage'>
+							<p>Please enter your name</p>
+						</div>
+				<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Email">
+						<div id='emailErrorMessage'>
+							<p>Please enter your email address</p>
+						</div>
+
+				<label>Your Message:</label>
+					<textarea rows="5" cols="65" id="message" placeholder="Type your message here"></textarea>
 			</div>
-			<div id="navBar">
-				<ul id="navLinks">
-					<li><a href="home"> Home </a></li>
-					<li><a href="survey"> Survey </a></li>
-				</ul>
-			</div>
-		</header>
-	</div>
-		
-
-
-
-
-	<form id="contact">
-		<h1> Contact Us!</h1>
-
-		<div class="form-group">
-			<label for="name"> Name: </label>
-				<input type="text" name="Name" class="form-control" id="name" placeholder="Full Name">
-					<div class='nameErrorMessage'>
-						<p>Please enter your name</p>
-					</div>
-			<label for="email">Email:</label>
-				<input type="email" class="form-control" id="email" placeholder="Email">
-			<label>Your Message:</label>
-				<textarea rows="5" cols="65" id="message" placeholder="Type your message here"></textarea>
-		</div>
-		
-		<!-- creat a text field here -->
-		
-		<input type="submit" value="Submit" id="submit">
-	</form>
+			
+			<!-- creat a text field here -->
+			
+			<input type="submit" value="Submit" id="submit">
+		</form>
 
 	
-	
-	</form>
-
-<div >
-
+	</div> <!-- /.container -->
 
 	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script src="js/survey.js"></script>
 
 </body>
