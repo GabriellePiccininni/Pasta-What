@@ -85,13 +85,14 @@ h3{
 	display: flex; 
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-basis: auto;
-	margin: 70px 0 100px ;
+	margin: 70px 0 100px;
+
 }
 
 .thumbnail {
-	background-color: transparent;
+	background-color: white;
 	padding: 5px;
 	margin: 5px;
 	text-align: center;
@@ -102,7 +103,7 @@ h3{
 	width: 150px;
 	border-radius: 50%;
 	margin: 1rem .5rem;
-	border: solid .25rem white;
+	border: solid .25rem #f6b7a9;
 }
 
 .pastaCard{
@@ -116,7 +117,8 @@ h3{
 	margin-left: 230px;
 	padding: 10px;
 }
-p{
+
+p{ /* padding around ea p in the pasta card*/
 	padding-top: 1.25rem;
 }
 .firstWord{
@@ -139,7 +141,7 @@ hr{
 
 .arrowDown{
 	text-align: center;
-	padding: 3px 0 100px 0;
+	padding: 10px auto 30px auto;
 }
 .arrowDown p .thumbnail p{
 	font-size: 24px;
@@ -211,5 +213,99 @@ a:hover{
 	margin: 60px 20px;
 	float: left;
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 999px) {
+	.index{
+		margin: 0 50px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.header{
+		width: 100%;
+	}
+	#headerSection{
+		margin: 20px 0 0 0;
+	}
+
+	.pastaPicture img{
+		width: 150px;
+	}
+	.pastaCopy{
+		margin-left: 180px;
+		padding: 10px;
+	}
+	
+	.pastaCard{
+		margin: 50px auto 10px auto;
+		height: auto;
+		width: 100%;
+	}
+	.pastaTitle{
+		font-size: 40px;
+	}
+	.thumbnail img{
+		width: 100px;
+	}
+
+	.index{
+		margin: 30px 0;
+	}
+	h1{
+		font-size: 40px;
+		margin: 10px 0 10px 0;
+	}
+
+	.firstWord{
+		float: left;
+		font-size: 30px;
+ 		padding: 8px 5px 0 0;
+ 		line-height: 10px;
+ 	}
+ 	.arrowDown{
+	padding-bottom: 30px;
+	}
+	.recipe{
+		width: 100%;
+	}
+}
+
+/******* PHONES *********/
+@media only screen and (max-width: 440px) {
+	h1{
+		font-size: 35px;
+		padding: 12px 0 20px 0;
+	}
+	.pastaPicture img{
+		display: none;
+	}
+	.pastaCopy{
+		margin-left: 0px;
+		padding: 10px;
+	}
+	.pastaTitle{
+		text-align: center;
+	}
+	
+	.ingredients{
+		width: 100%;
+		border-right: none;
+	}
+	.directions{
+		width: 100%;
+		padding-left: 0
+
+	}
+	.ingredients li{
+		display: inline;
+		padding-right: 10px;
+		border-right: dotted 3px #197891;
+	}
+
+}
+
 
 
