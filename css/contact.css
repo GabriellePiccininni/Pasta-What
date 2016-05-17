@@ -6,10 +6,13 @@ body {
 
 
 .header{
-	float: clear;
 	background-color: #197891;
 	height: 90px;
 	padding: 8px;
+	font-family: Pacifico;
+	font-size: 50px;
+	color: white;
+	text-align: center;
 }
 
 span h1{
@@ -28,17 +31,7 @@ span h1{
 }
 
 
-#headerLogo{
-	background: #197891;
-	display: inline-block;
-	font-size: 20px;
-	font-family: 'Pacifico', cursive;	
-	color: white;
-	padding: 16.5px 8px;
-	border-radius: 100%;
-	border: solid white 2px;
-	transform: rotate(-20deg);
-}
+
 
 .navbar.navbar-default{
 	background:#c9eff9;
@@ -116,4 +109,86 @@ select {
 	color: red;
 	padding-top: 5px;
 	text-align: center;
+}
+
+
+#submit{
+	padding: 8px;
+	margin: 20px auto;
+}
+.btn-default {
+	display: block;
+	margin: 2rem auto 0;
+	padding: 1.5rem;
+	font-size: 2rem;
+
+}
+.footer{
+	background-color: #e1ecf4;
+	padding: 1.25em 0 2em;
+	text-align: center;
+	border-top: 0.5em solid #197891;
+}
+/* RESPONSIVE MEDAIA QUERIES*/
+
+/******* TABLET + *******/
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+	body{
+
+	}
+}
+
+/******* SMALLER TABLETS **********/
+@media screen and (max-width: 767px) {
+	.header p{
+		display: none;
+	}
+	#headerLogo{
+		background: #197891;
+		display: inline-block;
+		font-size: 20px;
+		font-family: 'Pacifico', cursive;	
+		color: white;
+		padding: 16.5px 8px;
+		border-radius: 100%;
+		border: solid white 2px;
+		transform: rotate(-20deg);
+	}
+	
+	#contact{
+		width: 80%;
+		padding: 15px;
+	}
+	
+	h1{
+		font-size: 40px;
+	}
+}
+
+/******* PHONES *********/
+@media only screen and (max-width: 400px) {
+	h1{
+		font-size: 40px;
+	}
+
+	.header p{
+		display: none;
+	}
+	
+	#headerLogo{
+		background: #197891;
+		display: inline-block;
+		font-size: 15px;
+		font-family: 'Pacifico', cursive;	
+		color: white;
+		padding: 16.5px 8px;
+		border-radius: 100%;
+		border: solid white 2px;
+		transform: rotate(-20deg);
+	}
+
+	#contact{
+		width: 100%;
+		padding: 10px;
+	}
 }

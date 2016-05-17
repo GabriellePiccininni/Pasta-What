@@ -9,7 +9,6 @@ body {
 }
 
 .header{
-
 	background-color: #197891;
 	height: 90px;
 	padding: 8px;
@@ -167,13 +166,6 @@ ul {
 
 /* RESPONSIVE MEDAIA QUERIES*/
 
-/******* TABLET + *******/
-@media  screen and (min-width: 768px) and (max-width: 1024px) {
-	body{
-
-	}
-}
-
 /******* SMALLER TABLETS **********/
 @media screen and (max-width: 767px) {
 
@@ -219,7 +211,6 @@ ul {
 		border: solid white 2px;
 		transform: rotate(-20deg);
 	}
-
 
 }
 
