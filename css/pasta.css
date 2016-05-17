@@ -286,6 +286,7 @@ a:hover{
 		margin-left: 0px;
 		padding: 10px;
 	}
+	
 	.pastaTitle{
 		text-align: center;
 	}
@@ -294,11 +295,12 @@ a:hover{
 		width: 100%;
 		border-right: none;
 	}
+
 	.directions{
 		width: 100%;
 		padding-left: 0
-
 	}
+
 	.ingredients li{
 		display: inline;
 		padding-right: 10px;
