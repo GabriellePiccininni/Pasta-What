@@ -161,14 +161,14 @@ select {
 	}
 	
 	h1{
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 
 /******* PHONES *********/
 @media only screen and (max-width: 400px) {
 	h1{
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.header p{
