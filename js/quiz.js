@@ -11,7 +11,7 @@ $(document).ready(function(){
 			'<div id="lightbox">' +
 				'<p>Click to close</p>' +
 				'<div id="content">' + //insert clicked link's href into img src
-					'<https://giphy.com/gifs/kimmyschmidt-unbreakable-kimmy-schmidt-lillian-l2R05FZf4dVOrgIaQ/>' +
+					'<img src="https://cdn4.dogonews.com/images/4608011a-7a08-4720-9e40-a4e28b0ebedd/summer_time-1455175.jpg"/>' +
 				'</div>' +	
 			'</div>';
 				
