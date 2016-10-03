@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 	$('#godfather').click(function(e){
 		e.preventDefault();
-		if ($('#godfather').val() === "a"){
+		if ($('#godfather').val() === i){
 			console.log('happening')
 			var lightbox = 
 			'<div id="lightbox">' +
