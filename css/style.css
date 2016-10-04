@@ -193,7 +193,7 @@ img:hover {
 /******* PHONES *********/
 @media only screen and (max-width: 440px) {
 	.header{
-		font-size: 40px;
+		font-size: 36px;
 	}
 	#headerSection{
 		margin: 20px 0 0 0;
@@ -206,7 +206,7 @@ img:hover {
 		display: none;
 	}
 	h1{
-		font-size: 35px;
+		font-size: 30px;
 		padding: 2px 0 20px 0;
 		margin: 0;
 	}
