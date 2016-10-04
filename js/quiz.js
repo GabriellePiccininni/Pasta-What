@@ -4,7 +4,6 @@
 
 $(document).ready(function(){
 	$('#noPasta').click(function(e){
-		e.preventDefault();
 		if ($('#noPasta').val() === "c"){
 			console.log('happening')
 			var lightbox = 
@@ -28,8 +27,7 @@ $(document).ready(function(){
 
 
 	$('#godfather').click(function(e){
-		e.preventDefault();
-		if ($('#godfather').val() === i){
+		if ($('#godfather').val() === "a"){
 			console.log('happening')
 			var lightbox = 
 			'<div id="lightbox">' +
@@ -52,7 +50,6 @@ $(document).ready(function(){
 
 
 	$('#ladyTramp').click(function(e){
-		e.preventDefault();
 		if ($('#ladyTramp').val() === "b"){
 			console.log('happening')
 			var lightbox = 
@@ -76,7 +73,6 @@ $(document).ready(function(){
 
 
 	$('#goodfellas').click(function(e){
-		e.preventDefault();
 		if ($('#goodfellas').val() === "c"){
 			console.log('happening')
 			var lightbox = 
@@ -100,7 +96,6 @@ $(document).ready(function(){
 
 
 	$('#elf').click(function(e){
-		e.preventDefault();
 		if ($('#elf').val() === "d"){
 			console.log('happening')
 			var lightbox = 

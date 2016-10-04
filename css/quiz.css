@@ -69,7 +69,7 @@ span h1{
 
 h1 {
 	font-family: Pacifico;
-	font-size: 35px;
+	font-size: 40px;
 	text-align: center;
 }
 
@@ -92,11 +92,13 @@ footer {
 label {
 	display: block;
 	margin-top: 50px;
-	font-style: italic;
 	font-weight: 900;
 	clear: both;
 }
 
+input[type="radio"]{
+	margin-right: 5px;
+}
 
 select {
 	display: block;
@@ -146,6 +148,9 @@ ul {
     margin: 8px 8px 30px 8px;
 }
  
+.videoLink:hover{
+	text-decoration: underline;
+}
 
 .image:hover{
 	background: #FFF;
