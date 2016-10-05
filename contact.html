@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 		<!-- important for your own stylesheet to come AFTER the bootstrap style link -->
-		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Pacifico|Bad+Script|Overlock|Vast+Shadow|Josefin+Slab:300,400,400i,700,700i' rel='stylesheet' type='text/css'>	
 		<link rel="stylesheet" type="text/css" href="css/contact.css"/>
 </head>
 
@@ -49,7 +49,21 @@
 			</nav>
 		</row>
 
-		<form id="contact">
+		
+
+<!-- <form >
+        <form id="contact" action="http://formspree.io/piccingt@gmail.com" method="POST" data-parsley-validate="">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Name" required="true" data-parsley-error-message="Name please!">
+            <label id="email" for="email">Email:</label>
+            <input type="email" name="_replyto" placeholder="Email" required="true" data-parsley-type="email" data-parsley-error-message="Please submit a valid email!">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" cols="30" rows="10"></textarea>
+            <input type="hidden" name="_next" value="/thanks.html">
+            <input type="submit" value="Send">
+    </form> -->
+
+		<form id="contact" action="http://formspree.io/piccingt@gmail.com" method="POST" data-parsley-validate="">
 			<h1> Contact Us!</h1>
 
 			<div class="form-group">
@@ -68,7 +82,7 @@
 					<textarea rows="5" cols="65" id="message" placeholder="Type your message here"></textarea>
 			</div>
 			
-			<!-- creat a text field here -->
+			<!-- create a text field here -->
 			
 			 <button type="submit" class="btn btn-default">Presto!</button>
 		</form>

@@ -1,6 +1,6 @@
 body {
 	background-image: url(../images/arches.png);
-	font-family: 'Bad Script', cursive; 
+	font-family: 'Overlock', san-sarif; 
 	font-size: 18px;
 }
 
@@ -9,10 +9,10 @@ body {
 	background-color: #197891;
 	height: 90px;
 	padding: 8px;
-	font-family: Pacifico;
+	font-family: Vast Shadow;
 	font-size: 50px;
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
 span h1{
@@ -21,11 +21,11 @@ span h1{
 	color: white;
 	margin: 0;
 	padding: 8px 0 0 30px;
-	text-align: center;
+	text-align: left;
 }
 
 #contact h1{
-	font-family: 'Pacifico', cursive;
+	font-family: Vast Shadow;
 	font-size: 55px;
 	text-align: center;
 }
@@ -37,11 +37,11 @@ span h1{
 	background:#c9eff9;
 	border-bottom: solid 3px #f6b7a9;
 	box-shadow: 0 0 40px rgba(0,0,0,0.4);
-	text-align: center;
+	text-align: left;
 }
 
 .nav.navbar-nav {
-	font-family: 'Bad Script', cursive; 
+	font-family: Josefin Slab; 
 	font-size: 18px;
 	display: inline-block;
   	float: none;
@@ -121,6 +121,7 @@ select {
 	margin: 2rem auto 0;
 	padding: 1.5rem;
 	font-size: 2rem;
+
 
 }
 .footer{
