@@ -133,6 +133,12 @@ h3 {
 	margin: 20px auto;
 }
 
+.pastaBox>a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
 img:hover {
     border: solid #197891;
 }
