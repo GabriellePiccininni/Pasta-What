@@ -24,7 +24,7 @@ div {
 }
 
 .nav.navbar-nav li{
-	padding: 15px 20px 20px 20px;
+	padding: 15px 20px 0px;
 }	
 
 .navbar-toggle{
@@ -33,6 +33,7 @@ div {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
 	background-color: transparent;
+	font-weight: bold;
 }
 /* Hamburger*/
 .navbar-default .navbar-toggle .icon-bar{
@@ -40,8 +41,24 @@ div {
   border: #197891; 
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+	font-weight: bold;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-	background-color: white;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.dropdown-menu{
+	background:rgba(201, 239, 249, .80);
+	font-size: 18px;
+	border: none;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: transparent;
+	font-weight: bold;
 }
 
 .navbar-header{
@@ -50,6 +67,7 @@ div {
 #headerSection{
 	margin: 30px 0 30px 0;
 }
+
 
 #headerLogo{
 	background: #197891;
@@ -124,13 +142,22 @@ img:hover {
 	padding: 80px;
 	font-size: 45px;
 }
-.glyphicon {
-	font-size: 45px;
-}
 
 .arrowDown a{
 	color: white;
 }
+
+.arrowDown a:hover{
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.glyphicon {
+	display: block;
+	color: white;
+	font-size: 45px;
+}
+
 
 .footer{
 	background-color: #e1ecf4;

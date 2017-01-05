@@ -65,7 +65,8 @@ h3{
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: #c9eff9;
+	background-color: transparent;
+	font-weight: bold;
 }
 /* Hamburger*/
 .navbar-default .navbar-toggle .icon-bar{
@@ -73,22 +74,39 @@ h3{
   border: #197891; 
 }
 
+.navbar-default .navbar-nav>li>a:hover {
+	font-weight: bold;
+}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-	background-color: white;
+	background-color: transparent;
+	font-weight: bold;
+}
+
+.dropdown-menu{
+	background:rgba(201, 239, 249, .80);
+	font-size: 18px;
+	border: none;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: transparent;
+	font-weight: bold;
 }
 
 .navbar-header{
-	background-color: #c9eff9;
+	background-color: rgba(201, 239, 249, .80);
 }
 
 
 .index{
+	width: auto;
 	display: flex; 
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	flex-basis: auto;
-	margin: 70px 0 100px;
+	margin: auto;
 
 }
 
@@ -117,7 +135,7 @@ h3{
 .pronounce{
 	font-family: Josefin Slab;
 	font-size: 24px;
-	padding-left: 40px;
+	display: block;
 }
 .pastaCopy{
 	margin-left: 230px;
@@ -219,7 +237,8 @@ a:hover{
 	margin: 60px 20px;
 	float: left;
 }
- .break{
+
+.break{
  	display: none;
  }
 
@@ -227,8 +246,7 @@ a:hover{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7) url(../images/Arrow-Up.png);
     width: 50px;
     height: 50px;
     text-decoration: none;
@@ -239,14 +257,14 @@ a:hover{
     z-index: 100;
  
 }
-#back-to-top i {
+/*#back-to-top i {
     color: #ffffff;
     margin: 0;
     position: relative;
     left: 16px;
     top: 13px;
     font-size: 19px;
-}
+}*/
 #back-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
 }
