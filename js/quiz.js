@@ -56,7 +56,7 @@ $(document).ready(function(){
 			'<div id="lightbox">' +
 				'<p>Click to close</p>' +
 				'<div id="content">' + //insert clicked link's href into img src
-					'<iframe width="560" height="315" src="https://www.youtube.com/embed/RzW4PH68KG4" frameborder="0" allowfullscreen></iframe>' +
+					'<iframe width="560" height="315" src="https://www.youtube.com/embed/iEFwcl8WMLM" frameborder="0" allowfullscreen></iframe>' +
 				'</div>' +	
 			'</div>';
 				
