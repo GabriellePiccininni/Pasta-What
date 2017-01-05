@@ -60,7 +60,7 @@ div {
 }
 
 h1{
-	font-size: 80px;
+	font-size: 90px;
 	font-family:'Vast Shadow', cursive;	
 	color: #FFF;
 	text-align: center;
@@ -82,8 +82,10 @@ h3 {
 
 
 .intro{
-	background-color: #197891;
-	padding: 80px 15px 80px 15px;
+	box-shadow: inset 0 0 0 1000px rgba(25, 120, 145, 0.3);
+	background-image: url(../images/spaghetti-background.jpg);
+	background-size: 100%;
+	padding: 150px 15px 80px 15px;
     margin-right: auto;
     margin-left: auto;
 	color: white;
@@ -124,7 +126,6 @@ img:hover {
 	color: white;
 }
 
-
 .footer{
 	background-color: #e1ecf4;
 	padding: 1.25em 0 2em;
@@ -143,7 +144,7 @@ img:hover {
 }
 
 .col-xs-12{
-	margin
+	width: 33.33333333%;;
 }
 
 /* Responsive Queries */
