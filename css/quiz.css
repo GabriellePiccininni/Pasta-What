@@ -1,6 +1,6 @@
 body {
 	background-image: url(../images/arches.png);
-	font-family: Overlock; 
+	font-family: 'Josefin Slab', cursive; 
 	font-size: 18px;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 .nav.navbar-nav {
-	font-family: Josefin Slab; 
+	font-family: 'Josefin Slab', cursive;  
 	font-size: 18px;
 	display: inline-block;
   	float: none;
@@ -75,9 +75,7 @@ h1 {
 }
 
 h2 {
-	font-family: Overlock;
-	font-weight: 900;
-	font-style: italic;
+	font-family: Vast Shadow;
 	font-size: 45px;
 	text-align: center;
 }
